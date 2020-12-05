@@ -1,0 +1,19 @@
+{
+  "name": "earrings",
+  "version": "1.0.0",
+  "description": "Sale of earrings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErvinKhamoydo/earrings.git"
+  },
+  "author": "Khamoido Ervin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErvinKhamoydo/earrings/issues"
+  },
+  "homepage": "https://github.com/ErvinKhamoydo/earrings#readme"
+}
