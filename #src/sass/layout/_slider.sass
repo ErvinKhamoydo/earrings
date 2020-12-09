@@ -1,0 +1,41 @@
+.main-home-slider-body
+    display: flex
+    align-items: center 
+    &-navslides
+        width: 80px
+        max-height: 400px
+        height: 100%
+        margin-right: 30px
+        overflow: hidden
+        &-item
+            width: 100%
+            height: 75px
+            margin: 5px 0
+            overflow: hidden
+            cursor: pointer
+            img
+                width: 100%
+    &-slides
+        margin-right: 50px
+        width: 350px
+        max-height: 400px
+        overflow: hidden
+        &-item
+            max-width: 350px
+            width: 100%
+            height: 100%
+            img
+                width: 100%
+    &-btns
+        display: flex
+        flex-wrap: wrap
+        width: 30px
+        &-item
+            margin: 60px 0
+            background-color: $black
+            width: 30px
+            height: 30px
+            &:first-child
+                transform: rotateZ(180deg)
+            img
+                width: 100%

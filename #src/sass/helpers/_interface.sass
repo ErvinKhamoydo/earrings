@@ -8,9 +8,19 @@
     text-decoration: none
     color: $white
 body
-    font-family: "RobotoRegular", sans-serif
+    +normal
     font-size: 18px
     background-color: $black
+section
+    margin: 70px 0
+    h1, h2
+        font-size: 40px
+        color: $gold
+    h2, h3
+        font-size: 35px
+        +normal
+    h3
+        font-size: 25px
 button, a
     cursor: pointer
 .container
@@ -24,7 +34,7 @@ button, a
             align-items: center
             justify-content: space-between
             font-size: 22px
-            font-family: "RobotoBold"
+            +bold
             .logo
                 display: flex
                 align-items: center
@@ -32,13 +42,40 @@ button, a
                 .logo-title
                     color: $gold
                     font-size: 25px
-                    font-family: "RobotoBold"
+
 .icon
     margin-right: 10px
     max-width: 70px
     width: 100%
     img
         width: 100%
+
+.price
+    display: flex
+    align-items: center
+    +bold
+    
+.order-btn
+    max-width: 400px
+    width: 100%
+    height: 60px
+    display: flex
+    align-items: center
+    justify-content: center
+    background: linear-gradient(180deg, #FFE7AE 0%, #FFBE27 64.06%)
+    &-image
+        margin-right: 15px
+        max-width: 40px
+        width: 100%
+        img
+            width: 100%
+    &-text
+        +bold
+        color: $black
+        font-size: 20px
+
+.navslides__active
+    border: 5px solid $gold
 
 .active
     color: $gold

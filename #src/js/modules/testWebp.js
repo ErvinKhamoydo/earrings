@@ -1,4 +1,4 @@
-export default function testWebP(callback) {
+export default function TestWebP(callback) {
     var webP = new Image();
 
     webP.onload = webP.onerror = function () {

@@ -8,3 +8,13 @@
         font-style: #{$style};
     }
 }
+
+@mixin normal {
+    font-family: "RobotoRegular", sans-serif;
+    font-weight: 400;
+}
+
+@mixin bold {
+    font-family: "RobotoBold", sans-serif;
+    font-weight: 700;
+}
